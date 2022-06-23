@@ -2,10 +2,11 @@
 
 from flask import Flask
 from flask import render_template
+from flask_mobility import Mobility
 
 
 app = Flask(__name__, static_folder="static")
-
+Mobility(app)
 
 @app.route('/')
 def index():
