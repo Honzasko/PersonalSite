@@ -2,9 +2,9 @@
 
 {% block content %}
 <div class="card">
-    <span class="card-title"><b>O mně</b></span>
+    <span class="card-title"><b>{{ object.about_me }}</b></span>
     <div class="card-content">
-        Je mi 18 let, baví mě programování,hrání a elektrotechnika.
+        {{ object.about_me_message }}
     </div>
 </div>
 {% endblock %}

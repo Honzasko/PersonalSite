@@ -1,0 +1,8 @@
+about_me=O mně
+social_text=Sociální sítě
+welcome_message=Vítej na mém webu
+text_projects=Projekty
+title_about_me=O mně
+title_social=Sociální sítě
+about_me_message=Je mi 18 let, baví mě programování,hrání,spiritualita a elektrotechnika.
+home=Domů

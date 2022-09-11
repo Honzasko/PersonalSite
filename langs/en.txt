@@ -1,0 +1,8 @@
+about_me=About me
+social_text=Social sites
+welcome_message=Welcome on my website
+text_projects=Projects
+title_about_me=About me
+title_social=Social sites
+about_me_message=I am 18, I enjoy programming,gaming,spirituality and electrotechnics.
+home=Home

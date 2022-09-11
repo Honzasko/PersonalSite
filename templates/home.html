@@ -10,11 +10,11 @@
 <div class="welcome" >
     <center>
     <label>Jan Straka</label><br>
-    <h1>Vítej na mém webu</h1><br>
+    <h1>{{ object.welcome_message }}</h1><br>
     {% if request.MOBILE %}
-    <a href="/about/"><button>O mně</button></a><br><a href="https://github.com/Honzasko"><button>Projekty</button></a><br><a href="/social/"><button>Sociální sítě</button></a>
+    <a href="about/"><button>{{ object.about_me }}</button></a><br><a href="https://github.com/Honzasko"><button>{{ object.text_projects }}</button></a><br><a href="social/"><button>{{ object.social_text }}</button></a>
     {% else %}
-    <a href="/about/"> <button>O mně</button></a><a href="https://github.com/Honzasko"><button>Projekty</button></a><a href="/social/"><button>Sociální sítě</button></a>{% endif %}  </center>
+    <a href="about/"> <button>{{ object.about_me }}</button></a><a href="https://github.com/Honzasko"><button>{{ object.text_projects }}</button></a><a href="social/"><button>{{ object.social_text }}</button></a>{% endif %}  </center>
 </div>
 </body>
 </html>

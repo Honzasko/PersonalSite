@@ -16,18 +16,18 @@
     <a href="#!" class="brand-logo">Jan Straka</a>
     <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     <ul class="right hide-on-med-and-down">
-      <li><a href="/" >Domů</a></li>
-      <li><a href="/about/">O mně</a></li>
-      <li><a href="https://github.com/Honzasko">Projekty</a></li>
-      <li><a href="/social/">Sociální sítě</a></li>
+      <li><a href="/" >{{ object.home }}</a></li>
+      <li><a href="/about/">{{ object.about_me }}</a></li>
+      <li><a href="https://github.com/Honzasko">{{ object.text_projects }}</a></li>
+      <li><a href="/social/">{{ object.social_text }}</a></li>
     </ul>
   </div>
 </nav>
     <ul class="sidenav" id="mobile-demo">
-      <li><a href="/">Domů</a></li>
-      <li><a href="/about/">O mně</a></li>
-      <li><a href="https://github.com/Honzasko">Projekty</a></li>
-      <li><a href="/social/">Sociální sítě</a></li>
+      <li><a href="/">{{ object.home }}</a></li>
+      <li><a href="/about/">{{ object.about_me }}</a></li>
+      <li><a href="https://github.com/Honzasko">{{ object.text_projects }}</a></li>
+      <li><a href="/social/">{{ object.social_text }}</a></li>
     </ul>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
